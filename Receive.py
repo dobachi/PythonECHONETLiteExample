@@ -5,7 +5,7 @@ def receive_state():
     ECHONETport = 3610
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    sock.bind(('', ECHONETport))
+    sock.bind(('0.0.0.0', ECHONETport))
     data, addr = sock.recvfrom(4096)
 
     # バイト列を16進数文字列に変換する
