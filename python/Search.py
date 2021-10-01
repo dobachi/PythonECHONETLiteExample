@@ -44,7 +44,7 @@ def create_command():
     DEOJ = DEOJ_CLS_GROUP + DEOJ_CLS_CODE + DEOJ_CLS_INSTANCE
     
     # 3.2.5 ECHONET Lite サービス(ESV)
-    ESV = "63"  # プロパティ値通知要求
+    ESV = "62"  # Get
     
     ###############
     # APPENDIX ECHONET機器オブジェクト詳細規定
@@ -62,7 +62,7 @@ def create_command():
     EDT1 = ""      # Getの場合はEDTは不要
     PROP1 = EPC1 + PDC1 + EDT1
     
-    ## プロパティ 2件目
+    ## プロパティ 2件目,
     #EPC2 = "b3"    # 温度設定の取得
     #PDC2 = "00"    # Getの場合は0でOK
     #EDT2 = ""      # Getの場合はEDTは不要
