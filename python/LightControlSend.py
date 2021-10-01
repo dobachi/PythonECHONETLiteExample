@@ -4,6 +4,9 @@ from threading import Thread
 import time
 import sys
 
+# https://qiita.com/f-paico/items/4104bc3ba7501ef57fa6 を参考に
+# 動作確認するためのスクリプト
+
 def light_switch(host, command):
     if command == 'on':
         prop = '30'

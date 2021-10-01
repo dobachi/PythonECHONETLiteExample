@@ -1,6 +1,9 @@
 import socket
 import binascii
 
+# https://qiita.com/f-paico/items/4104bc3ba7501ef57fa6 を参考に
+# 動作確認するためのスクリプト
+
 def receive_state():
     ECHONETport = 3610
 
