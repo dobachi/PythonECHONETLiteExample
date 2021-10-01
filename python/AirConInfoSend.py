@@ -37,7 +37,7 @@ def create_command():
     # DEOJ = 送信先ECHONET Lite オブジェクト
     DEOJ_CLS_GROUP = "01"     # 空調関連機器クラスグループ
     DEOJ_CLS_CODE = "30"      # 家庭用エアコンクラス
-    DEOJ_CLS_INSTANCE = "01"  # All Instanses
+    DEOJ_CLS_INSTANCE = "00"  # All Instanses
     DEOJ = DEOJ_CLS_GROUP + DEOJ_CLS_CODE + DEOJ_CLS_INSTANCE
     
     
